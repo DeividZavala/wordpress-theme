@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height: 100vh;
+    background-image: url("../images/fondo2.png");
+    max-height: 100vh;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header-title{
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    padding: 0 15%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.uk-navbar-container{
+    transition: all .3s;
+}
+.uk-navbar-nav>li>a, .uk-navbar-nav>li.uk-active>a{
+    color: white;
+}
+.uk-sticky-below .uk-navbar-nav>li>a{
+    color: black !important;
+}
+.uk-sticky-below{
+    background-color: white !important;
+}
+.uk-navbar-item.uk-logo{
+    display: flex;
+    justify-content: flex-start;
+}
+.uk-navbar-item.uk-logo img{
+    width: 20%;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 0;
+    flex-direction: column;
+}
+.icons{
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+}
+.text-white{
+    color: white !important;
+}
